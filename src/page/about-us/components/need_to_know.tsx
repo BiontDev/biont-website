@@ -31,7 +31,7 @@ export default function NeedToKnow() {
 
         <div className="w-full mb-8 md:mb-0 flex items-center lg:justify-end">
           <img
-            src="/about-us.svg"
+            src={"/about-us.svg"}
             alt="Biont Services Team Meeting"
             loading="lazy"
             className="rounded-3xl xl:w-[70%] h-full object-cover shadow-lg"

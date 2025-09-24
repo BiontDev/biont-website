@@ -6,19 +6,19 @@ export default function AboutUs() {
       <section className="w-full bg-[#FAFAFA]">
         <div className="max-w-7xl p-4 grid grid-cols-2 md:grid-cols-4 mx-auto py-10">
           <div>
-            <img src="/ncs.png" alt="Nigerian Custom Service" />
+            <img src={'/ncs.png'} alt="Nigerian Custom Service" />
           </div>
           <div>
             <img
-              src="/agf.png"
+              src={'/agf.png'}
               alt="Office of The Accountant General of The Federation"
             />
           </div>
           <div>
-            <img src="/mf.png" alt="Federal Ministry of Finance" />
+            <img src={'/mf.png'} alt="Federal Ministry of Finance" />
           </div>
           <div>
-            <img src="/obetek.png" alt="Obetek" />
+            <img src={'/obetek.png'} alt="Obetek" />
           </div>
         </div>
       </section>
@@ -42,14 +42,17 @@ export default function AboutUs() {
               private sector clients in various industries.
             </p>
           </div>
-          <Link to={'/about-us'} className="bg-[#C18932] hover:bg-[#a97a2a]  text-white px-10 py-4 text-lg rounded-md shadow transition-colors mt-4">
+          <Link
+            to={"/about-us"}
+            className="bg-[#C18932] hover:bg-[#a97a2a]  text-white px-10 py-4 text-lg rounded-md shadow transition-colors mt-4"
+          >
             Learn More <span className="ml-2">→</span>
           </Link>
         </div>
         {/* Right: Image */}
         <div className="flex-1 flex items-center justify-center w-full lg:w-1/2">
           <img
-            src="/abouthomepage.png"
+            src={'/abouthomepage.png'}
             alt="Biont Services Team Meeting"
             loading="lazy"
             className="rounded-3xl w-auto h-[70%] object-cover shadow-lg"
