@@ -1,4 +1,4 @@
-
+import back from "@/assets/background.gif";
 
 export default function ContactHero() {
   return (
@@ -7,7 +7,7 @@ export default function ContactHero() {
         {/* Background overlay */}
         <div className="absolute inset-0 -z-10">
           <img
-            src={"/background.gif"}
+            src={back}
             loading="lazy"
             alt="Skyscraper background"
             className="w-full h-full object-cover opacity-60"

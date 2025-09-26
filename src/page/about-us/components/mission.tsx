@@ -1,25 +1,28 @@
-
+import mission from "@/assets/mission1.png";
+import scope from "@/assets/scope.png";
+import valuesimg from "@/assets/puzzle.png";
+import mission1 from "@/assets/mission1.png";
 
 const values = [
   {
     title: "Our Mission",
     description:
       "Our mission is to empower corporate and government clients with advanced tools for data-driven decisions and improved efficiency, leveraging innovation and technology.",
-    image: '/mission.png',
+    image: mission,
     bgColor: "bg-blue-50",
   },
   {
     title: "Our Vision",
     description:
       "To be a world-class proactive and innovative based organization. information technology and communication agro-based organization.",
-    image: '/scope.png',
+    image: scope,
     bgColor: "bg-orange-50",
   },
   {
     title: "Core Values",
     description:
       "Our core values shape our daily operations and foster a motivated, inclusive environment where every employee performs at their best.",
-    image: '/values.png',
+    image: valuesimg,
     bgColor: "bg-green-50",
   },
 ];
@@ -32,7 +35,7 @@ export default function Mission() {
         <div className="flex flex-col lg:flex-row items-center gap-8 md:gap-16 mb-16">
           <div className="flex-shrink-0 w-full flex flex-col lg:w-1/2 sm:flex-row items-center  justify-between gap-16">
             <img
-              src={'/mission1.png'}
+              src={mission1}
               loading="lazy"
               alt="Our Mission and Vision illustration"
               className="w-[240px] h-[194px]"

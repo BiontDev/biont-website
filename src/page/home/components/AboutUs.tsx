@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import agf from "@/assets/agf.png";
+import mf from "@/assets/mf.png";
+import ncs from "@/assets/ncs.png";
+import obetek from "@/assets/obetek.png";
 
 export default function AboutUs() {
   return (
@@ -6,19 +10,19 @@ export default function AboutUs() {
       <section className="w-full bg-[#FAFAFA]">
         <div className="max-w-7xl p-4 grid grid-cols-2 md:grid-cols-4 mx-auto py-10">
           <div>
-            <img src={'/ncs.png'} alt="Nigerian Custom Service" />
+            <img src={ncs} alt="Nigerian Custom Service" />
           </div>
           <div>
             <img
-              src={'/agf.png'}
+              src={agf}
               alt="Office of The Accountant General of The Federation"
             />
           </div>
           <div>
-            <img src={'/mf.png'} alt="Federal Ministry of Finance" />
+            <img src={mf} alt="Federal Ministry of Finance" />
           </div>
           <div>
-            <img src={'/obetek.png'} alt="Obetek" />
+            <img src={obetek} alt="Obetek" />
           </div>
         </div>
       </section>
