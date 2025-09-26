@@ -1,21 +1,25 @@
+import ryderhome from "@/assets/ryderhome.png";
+import cpacshome from "@/assets/cpacshome.png";
+import ibrashome from "@/assets/ibrashome.png";
+
 const products = [
   {
     link: "/our-products",
-    image: "/ryderhome.png",
+    image: ryderhome,
     number: "1.",
     title: "Ryder mobile app",
     desc: "To revolutionize local deliveries by connecting users with a network of reliable riders, ensuring fast, convenient, and trackable service.",
   },
   {
     link: "/our-products",
-    image: "/cpacshome.png",
+    image: cpacshome,
     number: "2.",
     title: "Centralized Payroll-based Credit System (CPACS)",
     desc: "CPACS aims to simplify and centralize staff loan management for faster processing, guaranteed repayments, and improved transparency.",
   },
   {
     link: "/our-products",
-    image: "/ibrashome.png",
+    image: ibrashome,
     number: "3.",
     title: "Integrated Billing and Revenue Assurance System (IBRAS)",
     desc: "To simplify the billing process while maximizing revenue collection, management & reporting for agencies and states by ensuring accuracy and blocking revenue leakages.",
